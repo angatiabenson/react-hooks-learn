@@ -2,10 +2,7 @@ import { useState } from "react";
 
 export function TheToggle() {
     const title = "Breaking News";
-    const content = `Somalia's Al-Qaeda-linked militant group Al-Shabaab vowed Saturday to fight any attempt by Israel "to claim or use parts of Somaliland" following its recognition of the breakaway territory.
-"We will not accept it, and we will fight against it," Al-Shabaab said in a statement.
-
-Its spokesman Ali Dheere said in the statement that Israel's recognition of Somaliland as a sovereign state showed it "has decided to expand into parts of the Somali territories" to support "the apostate administration in the northwest regions".`
+    const content = `Andrej Karpathy, Tesla's former AI director and OpenAI cofounder, has issued what amounts to an open letter to the entire software engineering profession, warning that developers face an unprecedented challenge as AI fundamentally reshapes how code gets written. In a post on X that has sparked widespread debate, Karpathy confessed: "I've never felt this much behind as a programmer. The profession is being dramatically refactored as the bits contributed by the programmer are increasingly sparse and between."`
 
     const [isReadMore, setIsReadMore] = useState(false);
 
